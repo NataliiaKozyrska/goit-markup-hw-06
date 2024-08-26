@@ -236,9 +236,9 @@ ul {
   margin-bottom: 8px;
 }
 
-.title-list {
+/* .title-list {
   width: calc((100% - 72px) / 4);
-}
+} */
 .text {
   color: var(--title-text-color);
   letter-spacing: 0.02em;
