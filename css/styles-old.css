@@ -166,7 +166,7 @@ ul {
 }
 
 .first-button {
-  /* border: 1px solid transparent; */
+  border: 1px solid transparent;
   color: var(--primary-bg-color);
   background: var(--accent-color);
 }
