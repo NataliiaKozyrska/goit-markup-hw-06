@@ -968,7 +968,24 @@ color: #2e2f42;
 
 }
 
-
+/* .hero {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  max-width: 768px;
+  height: 436px;
+  text-align: center;
+  background-color: var(--primary-text-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-size: cover;
+} */
 
 
 @media screen and (min-width:1158px)  {
