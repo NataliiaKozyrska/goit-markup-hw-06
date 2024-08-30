@@ -1060,6 +1060,7 @@ color: #2e2f42;
 }
 
 .feature-section {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 74px 24px;
