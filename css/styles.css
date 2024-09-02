@@ -275,6 +275,8 @@ p {
 
 /* mobile-menu */
 
+
+
 .container {
   max-width: 320px;
   padding-left: 16px;
@@ -505,6 +507,18 @@ ul {
   background-size: cover;
   
 }
+@media screen and (webkit-min-device-pixel-ratio:2), (min-resolution: 2dppx), (min-resolution: 192dppi){
+  .hero {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/office-2x-mob.png);
+    background-repeat: no-repeat;
+  }
+
+}
+
 .hero-title {
   margin: 0 auto;
   color: var(--primary-bg-color);
@@ -978,10 +992,29 @@ color: #2e2f42;
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   max-width: 768px;
+  /* height: 436px; */
+  text-align: center;
+  background-color: var(--primary-text-color);
+  padding-top: 112px;
+  padding-bottom: 112px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/office-2x-tab.png);
+  background-repeat: no-repeat;
+  max-width: 1158px;
   height: 436px;
   text-align: center;
   background-color: var(--primary-text-color);
-  padding-top: 188px;
+  /* padding-top: 188px; */
   padding-bottom: 188px;
   margin-right: auto;
   margin-left: auto;
@@ -1021,6 +1054,7 @@ color: #2e2f42;
   border: none;
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .section {
   padding-top: 120px;
@@ -1085,6 +1119,7 @@ color: #2e2f42;
 } 
 .list-team {
   width: calc((100% - 24px) / 2);
+  
 }
 /* .title-list{
   width: calc((100% - 24px) / 2);
@@ -1117,6 +1152,8 @@ color: #2e2f42;
 }
 .masterpice {
   display: block;
+  width: 288px;
+  
 }
  .social {
   display: flex;
@@ -1167,7 +1204,9 @@ color: #2e2f42;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
-
+.item-team{
+  width: calc((100% - 24px) / 2);
+}
 .item-wrapp {
   overflow: hidden;
   position: relative;
@@ -1183,9 +1222,6 @@ color: #2e2f42;
 .page-footer {
   background-color: var(--primary-text-color);
   padding: 100px 0;
-}
-.footer-logo-paragraf{
-  margin-right: 120px;
 }
 
 .footer-logo {
@@ -1213,7 +1249,7 @@ color: #2e2f42;
   gap: 72px 24px;
   align-items: baseline;
   flex-direction: row;
-  gap: unset;
+  
 }
 
 .paragraf-media {
@@ -1226,10 +1262,8 @@ color: #2e2f42;
 }
 
 
-.social-media{
-  margin-right: 80px;
-}
- 
+
+
 .footer-social {
   display: flex;
   align-items: center;
@@ -1268,7 +1302,8 @@ color: #2e2f42;
 }
 
 .footer-form{
-  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   gap: 24px;
 }
 .footer-input-class{
@@ -1303,10 +1338,6 @@ color: #2e2f42;
 }
 .footer-svg{
   margin-left: 16px;
-}
-.footer-form{
-  flex-direction: row;
-  flex-wrap: nowrap;
 }
 
 }
@@ -1348,7 +1379,7 @@ padding: 24px 0;
   height: 436px;
   text-align: center;
   background-color: var(--primary-text-color);
-  padding-top: 188px;
+  /* padding-top: 188px; */
   padding-bottom: 188px;
   margin-right: auto;
   margin-left: auto;
@@ -1356,6 +1387,26 @@ padding: 24px 0;
   background-size: cover;
 }
 
+
+
+.hero {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-2x.jpg);
+  background-repeat: no-repeat;
+  max-width: 768px;
+  /* height: 436px; */
+  text-align: center;
+  background-color: var(--primary-text-color);
+  padding-top: 112px;
+  padding-bottom: 112px;
+  margin-right: auto;
+  margin-left: auto;
+  background-position: center;
+  background-size: cover;
+}
 .hero-title {
   color: var(--primary-bg-color);
   max-width: 496px;
@@ -1558,6 +1609,12 @@ padding: 24px 0;
 }
 
 
+.footer-logo-paragraf{
+  margin-right: 120px;
+}
+.social-media{
+  margin-right: 80px;
+}
 }
 
 
