@@ -1008,7 +1008,7 @@ color: #2e2f42;
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/office-2x-tab.png);
+    url(../images/hero2xtab.jpg);
   background-repeat: no-repeat;
   max-width: 1158px;
   height: 436px;
@@ -1394,7 +1394,7 @@ padding: 24px 0;
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office-2x.jpg);
+    url(../images/hero2xdesk.jpg);
   background-repeat: no-repeat;
   max-width: 768px;
   /* height: 436px; */
@@ -1614,6 +1614,15 @@ padding: 24px 0;
 }
 .social-media{
   margin-right: 80px;
+}
+
+.label-text{
+  margin-bottom: 16px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #ffffff;
 }
 }
 
