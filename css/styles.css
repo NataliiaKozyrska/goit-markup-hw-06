@@ -513,7 +513,7 @@ ul {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/office-2x-mob.png);
+    url(../images/hero2xmob.jpg);
     background-repeat: no-repeat;
   }
 
@@ -581,7 +581,7 @@ padding: 96px 0;
 }
 .title {
  
-  font-weight: 500;
+  font: 700 36px / 1.11111 "Roboto", sans-serif;
   font-size: 32px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -611,6 +611,7 @@ color: #2e2f42;
 }
 /* SECTION 3 */
 .feature-section {
+  /* display: flex; */
   flex-direction: column;
   gap: 72px;
 
@@ -718,6 +719,10 @@ color: #2e2f42;
   display: block;
   width: 288px;
 }
+
+.item-team{
+
+}
 .item-wrapp {
   overflow: hidden;
   position: relative;
@@ -788,7 +793,7 @@ color: #2e2f42;
   flex-wrap: wrap;
    gap: 72px;
     display: flex;
-  align-items: baseline;
+  
 }
 
 
@@ -992,7 +997,7 @@ color: #2e2f42;
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   max-width: 768px;
-  /* height: 436px; */
+  
   text-align: center;
   background-color: var(--primary-text-color);
   padding-top: 112px;
@@ -1011,7 +1016,7 @@ color: #2e2f42;
     url(../images/hero2xtab.jpg);
   background-repeat: no-repeat;
   max-width: 1158px;
-  height: 436px;
+  
   text-align: center;
   background-color: var(--primary-text-color);
   /* padding-top: 188px; */
@@ -1063,7 +1068,7 @@ color: #2e2f42;
 
 .title {
   color: var(--primary-text-color);
-  font-weight: 500;
+  font: 700 36px / 1.11111 "Roboto", sans-serif;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -1240,7 +1245,7 @@ color: #2e2f42;
   line-height: 1.5;
   color: var(--background-3section);
   letter-spacing: 0.02em;
-  max-width: 208px;
+  max-width: 264px;
 }
 
 .footer-wrapper {
@@ -1249,6 +1254,7 @@ color: #2e2f42;
   gap: 72px 24px;
   align-items: baseline;
   flex-direction: row;
+  padding-left: 108px;
   
 }
 
@@ -1299,12 +1305,14 @@ color: #2e2f42;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #ffffff;
+   text-align: left;
 }
 
 .footer-form{
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 24px;
+  align-items: baseline;
 }
 .footer-input-class{
   width: 264px;
@@ -1376,7 +1384,7 @@ padding: 24px 0;
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   max-width: 1158px;
-  height: 436px;
+  
   text-align: center;
   background-color: var(--primary-text-color);
   /* padding-top: 188px; */
@@ -1396,12 +1404,11 @@ padding: 24px 0;
     ),
     url(../images/hero2xdesk.jpg);
   background-repeat: no-repeat;
-  max-width: 768px;
-  /* height: 436px; */
+  max-width: 1440px;
   text-align: center;
   background-color: var(--primary-text-color);
-  padding-top: 112px;
-  padding-bottom: 112px;
+  padding-top: 188px;
+  padding-bottom: 188px;
   margin-right: auto;
   margin-left: auto;
   background-position: center;
