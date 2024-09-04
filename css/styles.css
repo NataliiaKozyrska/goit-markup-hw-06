@@ -643,12 +643,28 @@ color: #2e2f42;
   padding: 120px 0;
 }
 /* SECTION 3 */
+.img{
+  display: block;
+  width: 100%;
+}
+/* .team-container{
+  max-width: 584px;
+} */
 .feature-section {
   display: flex;
   flex-direction: column;
-  gap: 72px;
+  gap: 74px 24px;
+   flex-direction: row;
+  flex-wrap: wrap;
+ justify-content: center;
+}
+
+ .team {
+  background-color: var(--background-3section);
+  padding: 120px 0;
 
 }
+
 .section-team {
   margin-bottom: 72px;
   font-size: 36px;
@@ -680,7 +696,13 @@ color: #2e2f42;
 }
 
 .employee-description {
-  padding: 32px 0;
+  flex-wrap: wrap;
+   padding: 32px 0;
+   overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .list-employees {
@@ -693,7 +715,7 @@ color: #2e2f42;
 }
 
 .masterpice {
-  display: flex;
+  display: block;
 }
 .social {
   display: flex;
@@ -1359,8 +1381,7 @@ margin:0 auto;
 }
 
 .employee-description {
- 
-  padding: 32px 0;
+ padding: 32px 0;
    overflow: hidden;
   position: relative;
   display: flex;
@@ -1377,8 +1398,6 @@ margin:0 auto;
 }
 .masterpice {
   display: block;
-  
-  
 }
  .social {
   display: flex;
