@@ -222,11 +222,6 @@ ul {
   text-transform: capitalize;
 }
 
-.feature-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
 
 .title {
   color: var(--primary-text-color);
